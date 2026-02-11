@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InTimeCompany</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        /*navi*/
+      #first{
+        display:flex;
+        margin-left:100px;
+       
+      }
+      .two{
+        color:deepskyblue;
+      }
+      .first_main{
+        display:flex;
+        margin:0px;
+      }
+      nav{
+        margin-left:500px;
+        font-size:20px;
+        margin-left:auto;  
+        margin-right: 30px;
+      }
+      nav ul{
+        display:flex;
+        list-style-type:none;  
+        
+      }
+      nav ul li{
+        padding-left:10px;
+        padding-top:12px;
+
+      }
+      nav ul li a{
+        text-decoration: none;
+        color:black;
+      }
+      nav ul li a:hover{
+        text-decoration: underline;
+        text-decoration-color:deepskyblue;
+        text-decoration-thickness: 2px;
+        transition: 0.26s;
+        text-underline-offset: 10px;
+      }
+
+      /* second */
+      .second-section{
+        background-image: url('images/slide2.jpg');
+        background-size: cover;
+        height:400px;
+      }
+      
+       .second-section{
+        padding-top: 100px;
+        padding-left:50px;
+        box-sizing: border-box; /* това свойство при задаване на padding не уголемява блока*/
+       }
+      #s1{
+        background-color: rgba(0, 0,0, 0.3);
+        width: 200px;
+        padding:10px;
+        border-radius: 10px;
+      }
+      .second-section p{
+        color:white;
+      }
+      .second-section button{
+        border-radius: 10px;
+        border:0px;
+        color:white;
+        background-color: deepskyblue;
+        padding: 6px 8px 6px 8px;
+      } 
+
+      /* third_section */
+      .third_section{
+           text-align: center;
+           font-family:bold;
+      }
+      .third_section h2{
+        padding-top:10px;
+      }
+      .liniq_third{
+             width: 100px;
+             background-color:deepskyblue;
+             height: 3px;
+             border-radius: 10px;
+             border:none;
+      }
+      .third_section button{
+        border-radius: 30px;
+        border:none;
+        background-color:dimgray;
+        color:white;
+        padding:10px 20px 10px 20px;
+      }
+
+      /* forth_section */
+      .forth{
+        background-color:rgb(241, 239, 239) ;
+        text-align: center;
+      }
+      .forth hr{
+        width: 100px;
+             background-color:black;
+             height: 3px;
+             border-radius: 10px;
+             border:none;
+      }
+      #forth{
+        display: flex;
+        padding-top: 50px;
+        justify-content: center ;
+        padding-bottom:50px;
+      }
+      #forth img{
+        height: 200px;
+      }
+      #forth button{
+        border-radius: 10px ;
+        border:none;
+        background-color:dimgray;
+        color:white;
+        padding:10px 20px 10px 20px;
+      }
+      #forth_fr{
+        background-color: white;
+        margin-right:20px;
+        height:400px;
+      }
+      #forth_sc{
+        background-color: white;
+        margin-right:20px;
+        height:400px;
+      }
+      #forth_th{
+        background-color: white;
+        margin-right:20px;
+        height:400px;
+      }
+
+      /* fifth */
+       .fifth{
+        text-align: center;
+        background-color:#393F43;
+        height:170px ;
+        color:white;
+        padding-bottom:30px;
+       }
+       .fifth h2{
+        margin-top:0px;
+        padding-top:30px;
+       }
+       .fifth hr{
+        margin-bottom:2px;
+       }
+       .fifth hr{
+        width: 100px;
+             background-color:white;
+             height: 3px;
+             border-radius: 10px;
+             border:none;
+       }
+       #fifth {
+        padding-top:6px;
+       }
+       #fifth input{
+        margin-left:auto;
+        margin-right: auto;
+        background-color:#545A5E;
+        color:lightgray;
+        border:none;
+        border-radius:2px;
+        padding:6px 30px 6px 25px;
+       }
+       #fifth button{
+        border:none;
+        background-color: deepskyblue;
+        color:white;
+        border-radius:5px;
+        padding:6px 30px 6px 25px;
+        margin-left:5px;
+       }
+
+       /* six */
+       .six{
+        background-color: #2F3539;
+        height:200px;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        padding-bottom: 30px;
+       }
+       .six h3{
+        color:#FCFAF9;
+       }
+       .six ul{
+        margin-top:0px;
+        padding-top:20px;
+       }
+       .six ul li{
+        padding-right:90px;
+        color:white;
+        list-style-type:none;
+        padding-top:7px;
+       }
+       #six{
+        padding-top:0px;
+        display: flex;
+        margin-left:20px;
+       }
+      #icons{
+        display: flex;
+      }
+      #icons img{
+        width:26px;
+        padding-right: 10px;
+      }
+    #six_last{
+      margin-left:160px;
+    }
+
+    /* footer2*/
+    .footer2{
+          background-color: #262B2F;
+          display: flex;     
+          color:white;   
+         justify-content: center;
+    } 
+
+    #p2{
+      color:#008C9B; 
+      padding-left:5px;
+    }
+    </style>
+</head>
+<body>
+       <div id=first>
+            <div class="first_main">
+                      <div id="one">
+                         <h1>In</h1>
+                      </div>
+                     <div class="two">     
+                       <h1>Time</h1>
+                     </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">FAQS</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Coming</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="second-section">
+            <div id="s1">   
+                  <P>READY TO PROMOTE YOUR NEW BUSINESS</P>
+                 <button>Read More</button>
+            </div>
+        </div>
+
+        <div class="third_section">
+          <h2>WELCOME TO OUR COMPANY</h2>
+          <hr class="liniq_third">
+          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit <br>esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est <br>laborum.
+         </P>
+         <button>Read More</button>
+     </div>
+
+     <div class="forth">
+       <h2>OUR SEVICES</h2>
+       <HR>
+        <div id="forth">
+            <div id="forth_fr">
+                 <img src="images/service1.jpg" alt="pic1">
+                 <h3>Service Name</h3>
+                 <P>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna <br> aliqua.</P>
+                 <button id>Read More</button>
+            </div>
+   
+            <div id="forth_sc">
+                 <img src="images/service2.jpg" alt="pic2">
+                 <h3>Service Name</h3>
+                 <P>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna <br> aliqua.</P>
+                 <button>Read More</button>
+            </div>
+
+            <div id="forth_th">
+              <img src="images/service3.jpg" alt="pic3">
+              <h3>Service Name</h3>
+              <P>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna <br> aliqua.</P>
+              <button>Read More</button>
+            </div>
+        </div>
+     </div>
+
+     <div class="fifth">
+          <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+          <hr>
+          <p>Sign up for our mailing list to get latest updates and offers.</p>
+
+           <div id="fifth">
+              <input type="email" id="email" placeholder="Email Address..." required>
+              <button>SUBSCRIBE</button>
+           </div>
+     </div>
+
+     <footer class="six">
+      <div id="six">
+       <div>
+        <ul>
+          <h3>Quick Link</h3>
+           <li>Home</li>
+           <li>About Us</li>
+           <li>FAQs</li>
+           <li>Services</li>
+           <li>Contact</li>
+        </ul>
+      </div>
+
+        <div>
+            <ul>
+                <h3>Sercices</h3>
+                <li>Contact us</li>
+                <li>Write us</li>
+                <li>Call us</li>
+            </ul>
+         </div>
+         
+         <div>
+          <ul>
+            <h3>Address</h3>
+            <li>Sofia, Bulgaria</li>
+            <br>
+            <li>info@intime.com</li>
+            <li>(01) 800 854 633</li>
+          </ul>
+         </div>
+
+         <div id="six_last">
+            <h3>Follow Us</h3>
+            <div id="icons">
+              <div><img src="images/Facebook_f_logo_(2019).svg" alt="logo_pic1"></div>
+              <div><img src="images/Facebook_f_logo_(2019).svg" alt="logo_pic2"></div>
+              <div><img src="images/Facebook_f_logo_(2019).svg" alt="logo_pic3"></div>
+            </div>
+         </div>
+    </div>
+     </footer>
+
+     <div class="footer2">
+         <p id="p1">Copyright © 2018 InTime. All Rights Reserved.</p>
+         <p id="p2">InTime</p>
+     </div>
+</body>
+</html>
